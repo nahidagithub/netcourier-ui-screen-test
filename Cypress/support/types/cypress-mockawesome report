@@ -1,1 +1,5 @@
+declare module 'cypress-mochawesome-reporter/lib' {
+	export function beforeRunHook(details: any): Promise<void>;
+	export function afterRunHook(): Promise<void>;
+}
 
