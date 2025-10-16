@@ -1,1 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "es6",
+		"lib": ["es6", "dom"],
+		"types": ["cypress", "node"],
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"allowJs": true,
+		"strict": true,
+		"resolveJsonModule": true,
+		"module": "commonjs", // or "esnext"
+		"paths": {
+			"@type/*": ["cypress/support/types/*"]
+		}
+	},
+	"include": ["cypress/**/*.ts", "cypress/**/*.d.ts", "cypress/support/auth-commands.d.ts"]
+}
 
