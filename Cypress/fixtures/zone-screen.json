@@ -1,1 +1,35 @@
+{
+  "addZone": [
+    {
+      "nameofzone": "Dhamrai",
+      "zoneGroup": "Delivery",
+      "userZone": "Uttara 10",
+      "searchname": "sonargaon",
+      "filteredrecord": "Mirpur"
+    }
+  ],
+  "updateZone": [
+    {
+      "userZone1": "Dhamrai",
+      "updatename": "Savar02",
+      "updatezngroup": "DHL Euro"
+    }
+  ],
+
+  "copyZone": [
+    {
+      "nameofzone": "Savar02",
+      "zoneGroup": "DHL Euro"
+    }
+  ],
+
+  "placeZone": [
+    {
+      "placename": "sonargaon",
+      "altname": "sn",
+      "countryname": "Bangladesh",
+      "countrycode": "BD"
+    }
+  ]
+}
 
