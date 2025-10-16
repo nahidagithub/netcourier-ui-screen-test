@@ -1,1 +1,245 @@
+{
+  "appearance": {
+    "handheldType": [
+      "",
+      "Dispatch controllers",
+      "Drivers for delivery",
+      "Employee",
+      "Part-time Employee",
+      "Sameday driver",
+      "Sorting Center Personnel"
+    ],
+    "transportmode": ["", "CAR", "CYCLE", "MOTORBIKE", "TRANVAN", "TRUCK"]
+  },
+  "addUser": {
+    "standardUser": [
+      {
+        "fullName": "Cypress",
+        "username": "CYPRESSTEST1",
+        "password": "cytest",
+        "homeNo": "94347",
+        "mobile": "94347",
+        "office": "94347",
+        "email": "cy@test.com"
+      }
+    ],
+
+    "handheldUser": [
+      {
+        "fullName": "Cypress driver",
+        "username": "CYPRESSTEST22",
+        "password": "cydtest",
+        "homeNo": "94347",
+        "mobile": "94347",
+        "office": "94347",
+        "email": "cyd@test.com",
+        "handheldType": "Employee",
+        "driverNo": "CYDRVN003",
+        "licence": "988754",
+        "vehicleType": "CAR",
+        "vehicle": "MF-UI-V2-V4",
+        "vatNo": "DRMUV04"
+      },
+
+      {
+        "fullName": "Cypress driver 02",
+        "username": "CYPRESSTEST33",
+        "password": "cydtest2",
+        "homeNo": "943472",
+        "mobile": "943472",
+        "office": "943472",
+        "email": "cyd@test.com",
+        "handheldType": "Employee",
+        "driverNo": "CYDRVN004",
+        "licence": "988754",
+        "vehicleType": "CAR",
+        "vehicle": "MF-UI-V2-V4",
+        "vatNo": "DRMUV04"
+      }
+    ]
+  },
+  "updateUser": {
+    "existingUser": {
+      "fullName": "Cypress driver 02",
+      "username": "CYPRESSTEST33"
+    },
+    "updatedUser": [
+      {
+        "username": "CYPRESSTEST22",
+        "home": "67578436",
+        "office": "5578436",
+        "mobile": "167578436",
+        "email": "jw@test.com",
+        "product": "Export",
+        "language": "English",
+        "driverNo": "CYDRVN0010",
+        "licence": "988754",
+        "vehicleType": "CAR",
+        "vehicle": "MF-UI-V2-V4",
+        "vatNo": "DRMUV04",
+        "supplier": "Intersoft Parcel Ltd",
+        "pass": "12345"
+      },
+      {
+        "username": "CYPRESSTEST33",
+        "home": "6738436",
+        "office": "5178436",
+        "mobile": "167578430",
+        "email": "jwick@test.com",
+        "product": "Export",
+        "language": "English",
+        "driverNo": "CYDRVN0011",
+        "licence": "980754",
+        "vehicleType": "CAR",
+        "vehicle": "MF-UI-V2-V4",
+        "vatNo": "DRMUV04",
+        "supplier": "Intersoft Parcel Ltd",
+        "pass": "1234r"
+      }
+    ]
+  },
+  "copyUser": {
+    "existingUser": [
+      {
+        "fullName": "Driver001",
+        "username": "DRIVER001"
+      }
+    ],
+    "copiedUser": [
+      {
+        "username": "CYCTEST111",
+        "password": "cytest",
+        "driverNo": "CYDRVN0013"
+      }
+    ]
+  },
+  "archiveUser": [
+    {
+      "fullName": "Cypress",
+      "username": "CYPRESSTEST1"
+    }
+  ],
+  "vehicleSectionAppearance": {
+    "driver": {
+      "username": "CYPRESSTEST22",
+      "fullname": "Cypress driver"
+    },
+    "vehicle": {
+      "numberplate": "Suzuki",
+      "motexpirydate": "Fri, 31-Jul-2026",
+      "taxexpirydate": "Fri, 31-Jul-2026",
+      "vehicletype": "MOTORBIKE",
+      "emission": "6.10"
+    }
+  },
+  "vehicleSectionFunctionality": {
+    "assigntousers": {
+      "assignToFristUserName": "CYPRESSTEST22",
+      "assignToFristFullName": "Cypress driver",
+      "assignToNextUserName": "CYPRESSTEST33",
+      "assignToNextFullName": "Cypress driver 02"
+    },
+
+    "currentVehicle": {
+      "numberplate": "Suzuki",
+      "motexpirydate": "Fri, 31-Jul-2026",
+      "taxexpirydate": "Fri, 31-Jul-2026",
+      "vehicletype": "MOTORBIKE",
+      "emission": "6.10"
+    },
+    "updatedVehicle": {
+      "numberplate": "Suzuki 250",
+      "motexpirydate": "Tue, 28-Jul-2026",
+      "taxexpirydate": "Tue, 28-Jul-2026",
+      "vehicletype": "MOTORBIKE",
+      "emission": "6.10"
+    }
+  },
+
+  "taskSectionAppearance": {
+    "userLinkedToTask": {
+      "username": "CYPRESSTEST22",
+      "fullname": "Cypress driver"
+    }
+  },
+  "taskSectionFunctionality": {
+    "userLinkedToTask": {
+      "username": "CYPRESSTEST22",
+      "fullname": "Cypress driver"
+    },
+    "tasks": {
+      "tasksAdd": [
+        {
+          "tasktype": "Chase",
+          "status": "New",
+          "task": "TEST TASK 01",
+          "supervisorUserName": "CYPRESSTEST33",
+          "donetest": true,
+          "deadlineDate": "Sun, 1-Dec-2025",
+          "deadlineTime": "14:00",
+          "reminderDate": "Sun, 1-Dec-2025",
+          "reminderTime": "13:00"
+        },
+        {
+          "tasktype": "Chase",
+          "status": "New",
+          "task": "TEST TASK 02",
+          "supervisorUserName": "CYPRESSTEST33",
+          "deadlineDate": "Sun, 1-Dec-2025",
+          "deadlineTime": "14:00",
+          "reminderDate": "Sun, 1-Dec-2025",
+          "reminderTime": "13:00"
+        },
+        {
+          "tasktype": "Chase",
+          "status": "New",
+          "task": "TEST TASK 03",
+          "supervisorUserName": "CYPRESSTEST33",
+          "deadlineDate": "Sun, 1-Dec-2025",
+          "deadlineTime": "14:00",
+          "reminderDate": "Sun, 1-Dec-2025",
+          "reminderTime": "13:00"
+        }
+      ],
+
+      "taskUpdate": {
+        "updateStatus": "In progress",
+        "updateStatusInTable": "PROGRESS"
+      }
+    }
+  },
+
+  "scheduleDeductionSectionAppearance": {
+    "driver": {
+      "username": "CYPRESSTEST22",
+      "fullname": "Cypress driver"
+    }
+  },
+  "scheduleDeductionSectionFunctionality": {
+    "driver": {
+      "username": "CYPRESSTEST22",
+      "fullname": "Cypress driver"
+    },
+    "scheduleDeductionDetails": [
+      {
+        "extraName": "CYtestExtra1",
+        "totalValue": "10",
+        "splitOver": "10",
+        "description": "Scheduled deduction extra 1",
+        "priceLineAnalysis": "Basic (1)"
+      },
+      {
+        "extraName": "CYtestExtra2",
+        "totalValue": "10",
+        "splitOver": "10",
+        "description": "Scheduled deduction extra 2",
+        "priceLineAnalysis": "Basic (1)"
+      }
+    ]
+  },
+  "userTocheckAPIKeyField": {
+    "fullName": "Driver001",
+    "username": "DRIVER001"
+  }
+}
 
