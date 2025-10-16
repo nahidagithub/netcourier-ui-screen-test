@@ -1,1 +1,14 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Ignore Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+cypress/reports/*
+# Ignore other typical Cypress output (if present)
+cypress/downloads/
+cypress/results/
+.project
+.env
 
